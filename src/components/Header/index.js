@@ -39,7 +39,7 @@ const Navlink = styled(Link)`
   }
 `;
 
-const NavLinkSearch = styled(Link)`
+const Search = styled(Link)`
   input {
   outline: none;
   width:  100px;
@@ -100,13 +100,13 @@ class Header extends Component {
       <Wrapper>
         <Nav>
           <ul>
-            <li><Navlink to="/">Danzou</Navlink></li>
+            <li><Navlink to="/">DanzOu</Navlink></li>
             <li><Navlink to="/">Animes</Navlink></li>
             <li><Navlink to="/">Categorias</Navlink></li>
             <li>
-              <NavLinkSearch to="/">
+              <Search to="/">
                 <input type="search" placeholder="Buscar.."/>
-              </NavLinkSearch>
+              </Search>
             </li>
           </ul>
         </Nav>

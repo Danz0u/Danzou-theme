@@ -5,14 +5,20 @@ import styled from 'styled-components';
 
 
 const Wrapper = styled.header`
-  width: auto;
   height: 80px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
   background-color: #202B3B;
+  width: 100%;
+  overflow: hidden;
 `;
 
 const Nav = styled.nav `
   display: flex;
   justify-content: center;
+  position: relative;
 
   ul {
     padding:0px;
@@ -30,7 +36,6 @@ const Navlink = styled(Link)`
   display: inline-block;
   color: #9B9690;
   margin: 0.5em 0;
-  font-family: 'Anton', sans-serif;
   text-decoration: none;
   font-size: 20px;
 

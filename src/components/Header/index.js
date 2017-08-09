@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 //import FontAwesome from 'react-fontawesome';
 
@@ -15,7 +15,7 @@ const Wrapper = styled.header`
   overflow: hidden;
 `;
 
-const Nav = styled.nav `
+const Nav = styled.nav`
   display: flex;
   justify-content: center;
   position: relative;
@@ -31,7 +31,7 @@ const Nav = styled.nav `
   }
 `;
 
-const Navlink = styled(Link)`
+const Navlink = styled(Link) `
   padding: 20px 30px;
   display: inline-block;
   color: #9B9690;
@@ -44,7 +44,7 @@ const Navlink = styled(Link)`
   }
 `;
 
-const Search = styled(Link)`
+const Search = styled(Link) `
   input {
   outline: none;
   width:  100px;
@@ -110,7 +110,7 @@ class Header extends Component {
             <li><Navlink to="/">Categorias</Navlink></li>
             <li>
               <Search to="/">
-                <input type="search" placeholder="Buscar.."/>
+                <input type="search" placeholder="Buscar.." />
               </Search>
             </li>
           </ul>
@@ -118,6 +118,6 @@ class Header extends Component {
       </Wrapper>
     );
   }
-} 
+}
 
 export default Header;

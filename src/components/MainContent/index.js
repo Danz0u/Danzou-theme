@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const Wrapper = styled.section`
@@ -9,12 +9,12 @@ const Wrapper = styled.section`
   height: 100px;
 `;
 
-const ConatinnerRelated = styled.div `
+const ConatinnerRelated = styled.div`
 	padding-left: 15px;
   padding-right: 15px;
-`; 
+`;
 
-const ConatinnerFluid = styled.div `
+const ConatinnerFluid = styled.div`
 	margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -22,7 +22,7 @@ const ConatinnerFluid = styled.div `
 	padding: 35px;
 `;
 
-const Title = styled.div `
+const Title = styled.div`
 	text-align: center;
 	padding-bottom: 70px;
 	
@@ -39,12 +39,12 @@ const Title = styled.div `
 	}
 `;
 
-const Row = styled.div `
+const Row = styled.div`
 	  margin-left: -15px;
     margin-right: -15px;
 `;
 
-const Freebie = styled.div `
+const Freebie = styled.div`
 	  position: relative;
     background: #1B2431;
     overflow: hidden;
@@ -53,13 +53,13 @@ const Freebie = styled.div `
     text-align: center;
 `;
 
-const Image = styled.image `
+const Image = styled.image`
 		display: block;
     max-width: 100%;
     height: auto;
 `;
 
-const TitleLink = styled(Link)`
+const TitleLink = styled(Link) `
 		display: inline-block;
     margin-bottom: 20px;
     font-size: 20px;
@@ -68,23 +68,23 @@ const TitleLink = styled(Link)`
 
 
 class MainContent extends Component {
-  render() {
-    return (
+	render() {
+		return (
 			<Wrapper>
 				<ConatinnerRelated>
 					<ConatinnerFluid>
-						<Title><h2>A</h2><hr/></Title>						
+						<Title><h2>A</h2><hr /></Title>
 					</ConatinnerFluid>
 					<Row>
 						<Freebie>
-							<Image src=""/>
+							<Image src="" />
 							<TitleLink to="/">Title</TitleLink>
 						</Freebie>
 					</Row>
 				</ConatinnerRelated>
 			</Wrapper>
-    );
-  }
-} 
+		);
+	}
+}
 
 export default MainContent;

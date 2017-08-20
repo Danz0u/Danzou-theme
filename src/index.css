@@ -1,16 +1,8 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    background-color: #1B2431;
-    font-family: 'Anton', sans-serif;
-}
-
-.recentePost {
-		margin-right: auto;
-  	margin-left: auto;
-  	padding-left: 15px;
-  	padding-right: 15px;
+  font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 }

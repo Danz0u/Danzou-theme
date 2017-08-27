@@ -22,7 +22,7 @@ const Title = styled.h2`
 	ont-family: Gibson,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 	color: #34495e;
 	font-size: 50px;
-`; 
+`;
 
 const Slogan = styled.p`
 	padding: 10px;
@@ -89,17 +89,17 @@ const NavBar = styled.nav`
 	border-bottom: 1px solid #2c3e50;
 	height: 30px;
 	display: flex;
-  justify-content: center;
+	justify-content: center;
 	position: relative;
 	
-  ul {
-    padding:0px;
-    margin:0px;
-    list-style:none;
-  }
-  ul li { 
-    display: inline;
-  }
+	ul {
+		padding:0px;
+		margin:0px;
+		list-style:none;
+	}
+	ul li { 
+		display: inline;
+	}
 `;
 
 const Navlink = styled(Link) `

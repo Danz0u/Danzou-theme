@@ -6,6 +6,8 @@ import flexboxgrid from 'flexboxgrid';
 import Header from './components/Header';
 import MainContent from './components/MainContent';
 import AnimeBox from './components/AnimeBox';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 
 const anime = {
@@ -22,6 +24,7 @@ class App extends Component {
       <Router>
         <div>
           <Header />
+          <NavBar />
           <MainContent>
             <section>
               <div className="row around-xs">
@@ -43,6 +46,7 @@ class App extends Component {
               </div>
             </section>
           </MainContent>
+          <Footer />
         </div>
       </Router>
     );

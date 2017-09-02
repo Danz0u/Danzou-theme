@@ -20,9 +20,9 @@ const Image = styled.img`
   max-height: 150px;
   max-width: 200px;
   position:relative;
-	top:50%;
-	left:50%;
-	margin-left:-50px;
+  top:50%;
+  left:50%;
+  margin-left:-50px;
 `;
 
 const Info = styled.div`
@@ -72,7 +72,7 @@ const Button = styled(Link) `
   text-decoration: none;
  
   &:hover {
-		color: #ecf0f1;
+    color: #ecf0f1;
 	}
 
 `;
